@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Julian Maldonado">
+    <meta name="description" content="En esta pagina vas a encontrar todo un catálogo relacionado con herramientas para iluminar tu hogar, donde hay una gran variedad de diseños.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>luminación</title>
+     <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+
+    <script type="text/javascript" src="js/lightslider.js"></script>
+
+
+<link type="text/css" href="css/lightslider.css" rel="stylesheet">
+
+
+   <link type="text/css" href="css/styles.css" rel="stylesheet">
+
+</head>
+<body>
+    <header class="cabezote">
+        <div class="logo">
+            <img src="images/logo.svg" alt="logo UNIQUE">
+        </div>
+         <nav class="bmenu">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="quienessomos.html">Quiénes Somos</a></li>
+                <li><a href="mueblesydeco.html">Muebles y Deco</a></li>
+                <li><a href="iluminacion.html">Iluminación</a></li>
+                <li><a href="arte.html">Arte</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        </header>
+   <section class="iluminacionbanner">
+        <div class="iluminacionfondo">
+          <h1>Conexión con la naturaleza a partir de lo natural</h1>
+       </div>
+    </section>
+        <section class="banner1">
+        <ul id="lightSlider">
+            <li><img src="images/iluminacion4.jpg" alt="Uno de los productos de los que se dispones"></li>
+            <li><img src="images/iluminacion2.jpg" alt="Uno de los productos de los que se dispones"></li>
+            <li><img src="image/iluminacion3" alt="Uno de los productos de los que se dispones"></li>
+        </ul>
+    </section>
+ <script type="text/javascript">
+  $(document).ready(function() {
+    $("#lightSlider").lightSlider({item:1});
+  });
+</script>
+    <section class="iluminacion">
+      <div class="contenedor">
+         <div class="iluminacion1texto">
+          <h3>Iluminación</h3>
+           <p>Manteniendo siempre un alto valor estético y vanguardista, nuestras lámparas son objetos que sin lugar a duda brillan con luz propia. Conóce nuestras últimas colecciones e ilumina tus espacios con buenas ideas.
+          </p>
+       </div>
+         <div class="iluminacion1img">
+           <img src="images/iluminacion1.jpg" alt="sala con gran variedad de objetos que proporcionan ambiente al espacio">
+        </div>
+    
+        </div>
+   </section>
+
+    
+   <section class="galeriailuminacion">
+      <div class="contenedor2">
+       <div class="foto2">
+           <img src="images/iluminacion5.jpg" alt="foto de un esapcio con elemento que proporciona luz">
+       </div> 
+          <div class="foto2">
+           <img src="images/iluminacion6.jpg" alt="foto de un esapcio con elemento que proporciona luz">
+       </div>
+       <div class="foto2">
+           <img src="images/iluminacion7.jpg" alt="foto de un esapcio con elemento que proporciona luz">
+       </div>
+       </div>
+       
+   </section>
+   <footer>
+     <br>“Nuestra admiración por el arte antiguo no es admiración por lo viejo, sino por lo natural.”<br>
+     <div class="redesicon"><img src="images/fb.png" width="45"><img src="images/logo.svg" width="190"><img src="images/ig.png" width="45"></div>
+   </footer> 
+</body>
+</html>

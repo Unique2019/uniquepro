@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Julian Maldonado">
+    <meta name="description" content="En esta pagina vas a encontrar todo un catálogo relacionado con obras de nuevos artistas emergentes y algunos ya reconocidos en el medio. ">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arte</title>
+ 
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+
+  <script type="text/javascript" src="js/lightslider.js"></script>
+
+
+ <link type="text/css" href="css/lightslider.css" rel="stylesheet">
+
+
+<link type="text/css" href="css/styles.css" rel="stylesheet">
+
+    
+
+</head>
+<body>
+  <header class="cabezote">
+        <div class="logo">
+            <img src="images/logo.svg" alt="logo UNIQUE">
+        </div>
+         <nav class="bmenu">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="quienessomos.html">Quiénes Somos</a></li>
+                <li><a href="mueblesydeco.html">Muebles y Deco</a></li>
+                <li><a href="iluminacion.html">Iluminación</a></li>
+                <li><a href="arte.html">Arte</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        </header>
+   <section class="primeraarbol">
+       <div class="arboltexto">
+          <h1>Llegán grandes obras del artista Diego Mendoza, para unirse a la colección de "UNIQUE"</h1>
+          <img src="images/artebanner.jpg" alt="obra de arte donde esta ilustrado un arbol, en positivo y negativo">
+       </div>
+      
+   </section>
+   <section class="banner1">
+        <ul id="lightSlider">
+            <li><img src="images/arte3.jpg" alt="Uno de los productos de los que se dispones"></li>
+            <li><img src="images/arte2.jpg" alt="Uno de los productos de los que se dispones"></li>
+            <li><img src="images/arte1.jpg" alt="Uno de los productos de los que se dispones"></li>
+        </ul>
+    </section>
+ <script type="text/javascript">
+  $(document).ready(function() {
+    $("#lightSlider").lightSlider({item:1});
+  });
+</script>
+   <section class="obra">
+      <div class="contenedor">
+         <div class="obraimg">
+           <img src="images/arte3.jpg">            
+        </div>
+         <div class="obratexto">
+          <h3>Obra Gráfica</h3>
+           <p>En "UNIQUE" nos dedicamos a vender piezas pertenecientes a la categoría"obra gráfica". Las obras gráficas son aquellas que se reproducen en serie, mediante diferentes procesos mecánicos, para imprimir formas en un soporte.              
+          </p>
+       </div>
+    
+        </div>
+   </section>
+   <footer>
+     <br>“Nuestra admiración por el arte antiguo no es admiración por lo viejo, sino por lo natural.”<br>
+     <div class="redesicon"><img src="images/fb.png" width="45"><img src="images/logo.svg" width="190"><img src="images/ig.png" width="45"></div>
+   </footer>
+</body>
+</html>

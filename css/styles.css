@@ -1,0 +1,1229 @@
+/*----------Estilos PC----------*/
+h1{
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+    padding: 15px;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: white;
+    border-width: 3px;
+}
+h2{
+    font-family: 'Roboto Slab', serif;
+}
+p{
+    font-family: 'Roboto Slab Light', serif;
+    font-size: 20px;
+    line-height: 36px;
+}
+.cabezote{
+    position: absolute;
+    margin: 0 auto;
+    width: auto;
+    padding: 0 100px;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.47);
+}
+.logo{
+    width: 230px;
+}
+.bmenu{
+    justify-content: space-between;
+    align-content:space-between;
+    flex: auto;
+    flex-direction:row; 
+    margin: auto;
+}
+.bmenu ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;  
+}
+.bmenu ul li a{
+    text-decoration: none;
+    color: #ffffff;   
+    font-family: 'Roboto Slab', serif;
+    font-size: 19px;
+    align-content: center;
+}
+.bmenu ul:first-child li{
+    margin-right: 50px;  
+}
+.bmenu ul:last-child li{
+    margin-right: 50px;  
+}
+
+.banner{
+    width: 100%;
+    height: 800px;
+    overflow:hidden;
+}
+.banner img{
+    display: block;
+    width: 100%;
+}
+
+.titulodestacado{
+    position: absolute;
+    left: 50%;
+    top: 67%;
+    transform: translate(-50%, -50%); 
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+    display:inline-block;
+}
+.container{
+    width: 100%;
+    height:800px;
+    overflow:hidden;
+}
+.container img{
+    display: block;
+    width: 100%;
+}
+
+/*Estilos Footer*/
+footer{
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    margin: 0;
+    width: 100%;
+    background-color: black;
+    color: #ffffff;
+    font-family: 'Roboto Slab', serif;
+    font-size: 25px;
+    text-align: center;
+    align-content: center; 
+}
+.redesicon img{
+    margin: 10px;
+}
+
+/*Estilos Index PC*/
+.bienvenido{
+    padding: 100px 230px;
+    background-color: white;
+    height: 250px;
+}
+.bienvenido h1{
+    border-color: black;
+}
+.ultimosart{
+    padding: 50px;
+    background-color: #eadca7;
+    height: 550px;
+    justify-content: center;
+    align-items: center;
+}
+.ultimosart h1{
+    color: white;
+}
+
+/*Estilos Contacto PC*/
+.ind{
+    visibility: hidden;
+}
+.contacto{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 230px;
+    background-color: white;
+    height: 430px;
+}
+.form{
+    background-image: url(../images/patron.jpg);
+    height: 750px;
+    padding: 50px 230px;
+}
+.in{
+    display: flex;
+}
+.form h1{
+    color: white;
+    border-color: white;  
+}
+.form h2{
+    color: white;
+    font-family: 'Roboto Slab', serif; 
+}
+.form a{
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: white;
+    border-width: 3px;
+}
+.mapa{
+    margin: auto;
+    margin-right: 0;
+}
+
+/*Estilos Quiénes Somos PC*/
+.quienes{
+    margin: 0 230px;
+}
+.ind1{
+    visibility: hidden;
+}
+.subs{
+    justify-content: space-between;
+    padding: 50px;
+    display: flex;
+    font-family: 'Roboto Slab', serif;
+    background-color: #e3c275
+}
+.subs a{
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: white;
+    border-width: 3px;
+}
+.txt{
+    width: 50%;
+    padding: 50px;
+}
+.incorreo{
+    margin-right: 100px;
+    font-size: 20px;
+}
+.seg{
+    padding: 70px 230px;
+    background-image: url(../images/patron2.jpg);
+    text-align: center;
+    height: 100px;
+}
+
+
+
+
+
+
+
+/*----------Estilos Tableta----------*/
+@media screen and (min-width: 768px) and (max-width: 960px){
+    .logo{
+        width: 270px;
+        position: absolute;
+        margin: 5% 34%;
+        justify-content: space-around;
+    }
+    .cabezote{
+    position: absolute;
+    margin: 0;
+    width: 100%;
+    padding: 0px;
+    display: flex;
+}
+    .bmenu{
+        position: absolute;
+        margin: 170px 0;
+        justify-content:space-between;
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+    .bmenu ul li a{
+    font-size: 18px;
+}
+    .bienvenido{
+    text-align: left;
+    padding: 100px 115px;
+    background-color: white;
+    height: 280px;
+}
+    .container{
+    height:600px;
+    overflow:hidden;
+}
+    .container img{
+    display: block;
+    height: 600px;
+}
+    .quienes{
+    margin: 50px 115px;
+    text-align: left;
+}
+    .ind1{
+    visibility: hidden;
+}
+    .subs{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Roboto Slab', serif;
+    background-color: #e3c275;
+    height: 300px;
+}
+    .subs a{
+    font-family: 'Roboto Slab', serif;
+    font-size: 23px;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: white;
+    border-width: 3px;
+}
+    .txt{
+    text-align: center;
+    width: 100%;
+    padding: 0 115px;
+}
+    .incorreo{
+    margin: auto;
+    text-align: center;
+    justify-content: flex-start;
+    font-size: 23px;
+    font-family: 'Roboto Slab Light', serif;
+}
+    .seg{
+    padding: 115px;
+    background-image: url(../images/patron2.jpg);
+    text-align: center;
+    height: 150px;
+}
+    .footer{
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    margin: 0;
+    width: 100%;
+    background-color: black;
+    color: #ffffff;
+    font-family: 'Roboto Slab', serif;
+    font-size: 23px;
+    text-align: center;
+    align-content: center; 
+}
+    .redesicon img{
+    margin: 10px;
+}
+    .ind{
+    visibility: hidden;
+}
+    .contacto{
+    display: flex;
+    padding: 50px 115px;
+    background-color: white;
+    height: 550px;
+    justify-content:space-around;
+    }
+    .contacto h6{
+        font-size: 17px;
+    }
+    .form{
+    background-image: url(../images/patron.jpg);
+    height: 750px;
+    padding: 50px 115px;
+}
+    .in{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: left;
+}
+    .form h1{    
+    color: white;
+    border-color: white;  
+}
+    .form h2{
+    color: white;
+    font-family: 'Roboto Slab', serif; 
+}
+    .form a{
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: white;
+    border-width: 3px;
+}
+    .mapa{
+    margin: 50px 0;
+    padding: 0;
+    width: 200px;
+    height: 300px;
+    overflow: hidden;
+}
+}
+
+/*----------Estilos Celular----------*/
+@media screen and (min-width: 480px) and (max-width: 768px){
+    .bienvenido{
+    text-align: center;
+    padding: 100px 30px;
+    background-color: white;
+    height: 350px;
+}
+    .container{
+    height:800px;
+    overflow:hidden;
+}
+    .container img{
+    display: block;
+    height: 100%;
+}
+    .quienes{
+    margin: 0 30px;
+    text-align: center;
+}
+    .ind1{
+    visibility: visible;
+}
+    .ind1 img{
+        width: 90px;
+    }
+    .subs{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    font-family: 'Roboto Slab', serif;
+    background-color: #e3c275
+}
+    .subs a{
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: white;
+    border-width: 3px;
+}
+    .txt{
+    width: 100%;
+    text-align: center;
+    padding: 0px;
+}
+    .incorreo{
+    text-align: center;
+    justify-content: space-around;
+    margin-right: 0px;
+    font-size: 19px;
+    font-family: 'Roboto Slab Light', serif;
+}
+    .seg{
+    padding: 30px;
+    background-image: url(../images/patron2.jpg);
+    text-align: center;
+    height: 250px;
+}
+    .footer{
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    margin: 0;
+    width: 100%;
+    background-color: black;
+    color: #ffffff;
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+    text-align: center;
+    align-content: center; 
+}
+    .redesicon img{
+    margin: 10px;
+}
+    .redesicon img src="images/logo.svg"{
+        width: 150px;
+    }
+    .ind{
+    visibility: visible;
+}
+    .ind img{
+        width: 90px;
+    }
+    .contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    padding: 50px 30px;
+    background-color: white;
+    height: 700px;
+}
+    .contacto h6{
+        font-size: 17px;
+    }
+    .form{
+    background-image: url(../images/patron.jpg);
+    height: 1150px;
+    padding: 50px 50px;
+}
+    .in{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+    .form h1{    
+    color: white;
+    border-color: white;  
+}
+    .form h2{
+    color: white;
+    font-family: 'Roboto Slab', serif; 
+}
+    .form a{
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: white;
+    border-width: 3px;
+}
+    .mapa{
+    margin: auto;
+    padding: 50px 0;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+}
+}
+
+/*-------------- Otras Paginas -----------*/
+.primeraarbol{
+    background-color: black;
+    width: 100%;
+    height: 325px;
+    
+}
+.arboltexto h1{
+    padding: 5px;
+    font-size: 19px;
+    color: white;
+    width: 49%;
+    float: right;
+    line-height: 19px;
+    margin: 90px 0;
+   
+}
+.arbolnegro{
+    float: left;
+    margin: 43px 0 0 11px;
+}
+.arboltexto img{
+    height: 221px;
+    margin: 50px 0 0 0;
+}
+.banner1{
+    width:100%;
+    padding: 10px;
+}
+.banner1 li img{
+    display: block;
+    margin: 0 auto;
+}
+
+.contenedor { 
+    width: 95%;
+    margin: auto;
+}
+
+/*-- cuarta sección--*/
+.obra{
+    float: left;
+    padding: 20px;
+}
+.obraimg img{
+   position: absolute;
+    width: 260px;
+    height: 260px;
+    float: left;
+    margin: 84px 0 0 101px; 
+}
+.obratexto{
+    width: auto;
+    float: left;
+}
+.obratexto h3 {
+    font-family: roboto slab;
+    padding: 10px;
+    font-size: 45px;
+    color: #E1C174;
+    width: 88%;
+    line-height: 58px;
+    margin: 10px 0 0 90px    
+   
+}
+
+.obratexto p{
+    font-family: roboto slab;
+    padding: 10px;
+    font-size: 18px;
+    color: #E8DBA6;
+    width: 100%;
+    line-height: 26px;
+    margin: 300px 0 0 0px
+
+   
+   
+}
+
+/*-- MUEBLES--*/
+.mueble{
+    float: left;
+    padding: 10px;
+}
+
+.mueblefondo{
+    background-image: url(../images/mueblebannertablet.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 297px;
+}
+
+.mueblefondo h1{
+    color: white;
+    font-size: 21px;
+    margin: 103px 0 0 110px;
+    line-height: 21px;
+    float: left;
+    width: 70%;
+    
+}
+
+.mueble1texto{
+    width: auto;
+    float: left;
+}
+.mueble1texto h3 {
+    font-family: roboto slab;
+    padding: 10px;
+    font-size: 35px;
+    color: #E1C174;
+    width: 60%;
+    line-height: 58px;
+    margin: 0 0 0px 70px    
+   
+}
+.mueble1texto p{
+    font-family: slabo27px;
+    padding: 10px;
+    font-size: 17px;
+    color: #E8DBA6;
+    width: 100%;
+    line-height: 26px;
+    margin: 5px 0 0 0px
+}
+.mueble1img img{
+    float: left;
+    width:55%;
+    margin: 34px 0 0 110px;
+}
+
+
+.galeriamuebles{
+    display: none;
+    float: left;
+}
+.imagenesmuebles{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.fotos1{
+    width: 399px;
+    height: 238px;
+}
+.contenedor{
+    width: 98%;
+    margin: auto;
+    position: relative;
+}
+.textofinal1{
+    display: none;
+    float: left;
+}
+.textofinal1 p{
+    padding: 26px;
+    font-family: slabo27px;
+    font-size: 29px;
+    line-height: 29px;
+    width: 100%;
+    margin: 0 0 0 0;
+}
+
+    
+
+/*---------------iluminación-----*/
+
+.iluminacionfondo{
+    background-image: url(../images/iluminacionbannercelular.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 480px;
+}
+.iluminacionfondo h1{
+    color: white;
+    font-size: 25px;
+    margin: 318px 0 0 120px;
+    line-height: 41px;
+    float: left;
+    width: 75%;
+    
+}
+/*segunda sección*/
+.iluminacion{
+    float: left;
+    padding: 10px;
+   
+}
+
+.iluminacion1texto{
+    width: 100%;
+    float: left;
+}
+.iluminacion1texto h3 {
+    float: left;
+    font-family: roboto slab;
+    padding: 10px;
+    font-size: 45px;
+    color: #E8DBA6;
+    width: 50%;
+    line-height: 58px;
+    margin: 70px 0 0 90px    
+   
+}
+.iluminacion1texto p{
+    font-family: slabo27px;
+    padding: 10px;
+    font-size: 18px;
+    color: #E8DBA6;
+    width: 100%;
+    line-height: 23px;
+    margin: 145px 15px 0 0
+}
+.iluminacion1img  img{
+    width: 95%;
+    float: left;
+    margin: 0 0 0 19px
+    
+}
+.piezatexto3{
+    background-color: bisque;
+    height: 500px;
+    width: 100%;
+    float: left;
+}
+.galeriailuminacion{
+    float: left;
+    padding: 10px
+}
+.contenedor2{
+       
+}
+.foto2 img{
+    width: 93%;
+   padding: 20px;
+}
+
+/*-------- TABLET ------*/
+
+
+
+
+@media screen and (min-width: 768px){
+
+    .primeraarbol{
+        background-color: black;
+        width: 100%;
+        height: 474px;
+
+    }
+    .arboltexto h1{
+        padding: 5px;
+        font-size: 28px;
+        color: white;
+        width: 43%;
+        float: right;
+        line-height: 38px;
+        margin: 120px 0 ;
+
+    }
+    .arboltexto img{
+    float: left;
+    width: 53%;
+    height: 100%;
+    margin: 0 0 0 0;
+}
+/*tercera sección*/
+ 
+/*cuarta sección*/
+.obra{
+    float: left;
+    padding: 20px;
+    background-color:#E8DBA6;
+    width: 100%;
+    height: 500px;
+}
+    .obraimg{
+        width: 100%;
+    }
+.obraimg img{
+ margin: 120px 0 0 0;
+    float: left;
+    
+}
+.obratexto{
+    width: 100%;
+    float: left;
+}
+.obratexto h3 {
+    padding: 10px;
+    font-size: 60px;
+    color: white;
+    width: 55%;
+    margin: 118px 0 0 310px    
+   
+}
+
+.obratexto p{
+    font-family: roboto slab;
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+    width: 55%;
+    line-height: 26px;
+    margin: 10px 0 0 320px
+
+   
+   
+}
+
+/*--tablet muebles--*/
+
+.mueblefondo{
+    background-image: url(../image/mueblebannertablet.jpg);
+    background-size: cover;
+    width:100%;
+    height: 478px;
+}
+
+.mueblefondo h1{
+    color: white;
+    font-size: 37px;
+    margin: 231px 0 0 138px;
+    line-height: 39px;
+    float: left;
+    width: 556px;
+    
+}
+
+/*--segunda sección--*/
+
+  
+.mueble1texto h3 {
+    font-family: roboto slab;
+    padding: 10px;
+    font-size: 66px;
+    color: #E1C174;
+    width: 79%;
+    line-height: 58px;
+    margin: 0 0 0 110px    
+   
+}
+.mueble1texto p{
+    font-family: slabo27px;
+    padding: 10px;
+    font-size: 23px;
+    color: #E8DBA6;
+    width: 69%;
+    line-height: 26px;
+    margin: 0 auto;
+    }
+.mueble1img img{
+    float: left;
+    width:55%;
+    margin: 34px 0 0 150px;
+}
+
+
+    /*--tercera sección--*/
+
+    .piezasmuebles{
+        width: 100%;
+        float: right;
+        margin: 0 0 0 0;
+
+    }
+.contenedor{
+    width: 98%;
+    }
+    
+.galeriamuebles {
+    display:inherit;
+    }
+
+.imagenesmuebles {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap
+}
+.fotos1 {
+    width: 45%;
+    margin: auto;
+   }
+.textofinal1{
+    display: inherit;
+}
+.textofinal1{
+    float: left;
+}
+.textofinal1 p{
+    display: none;
+    padding: 26px;
+    font-family: slabo27px;
+    font-size: 29px;
+    line-height: 29px;
+    width: 100%;
+    margin: 0 0 0 0;
+}
+
+
+
+    
+
+
+    
+/*--tablet iluminación--*/
+    .iluminacionfondo{
+    background-image: url(../images/iluminacionbannertablet.jpg);
+    background-size:cover;
+    height: 478px;
+}
+.iluminacionfondo h1{
+    color: white;
+    font-size: 37px;
+    margin: 343px 0 0 224px;
+    line-height: 41px;
+    float: left;
+    width: 515px;
+    
+}
+
+/*segunda sección*/
+    
+   .iluminacion{
+    float: left;
+    padding: 10px;
+   
+}
+
+.iluminacion1texto{
+    width: 80%;
+    float: left;
+}
+.iluminacion1texto h3 {
+    font-family: roboto slab;
+    padding: 10px;
+    font-size: 58px;
+    color: #E8DBA6;
+    width: 80%;
+    line-height: 58px;
+    margin: 70px 0 0 160px    
+   
+}
+.iluminacion1texto p{
+    font-family: slabo27px;
+    padding: 10px;
+    font-size: 23px;
+    color: #E8DBA6;
+    width: 90%;
+    line-height: 23px;
+    margin: 150px 0 0 95px
+}
+.iluminacion1img  {
+    float: left;
+    margin: 0 0 0 89px
+    
+} 
+    
+/*tercera sección*/
+
+    .piezatexto3{
+    background-color: bisque;
+    height: 600px;
+    width: 768px;
+    float: left;
+}
+/*sección*/
+    .galeriailuminacion{
+  
+}
+
+.contenedor2{
+display: flex;
+     flex-wrap: wrap;
+        justify-content: center;
+  
+}
+
+.foto2 {
+     width:45%;
+    }
+}
+/*------- PC-------*/
+@media screen and (min-width: 920px){
+    
+    primeraarbol{
+        background-color: black;
+        width: 100%;
+        height: 474px;
+
+    }
+  .arboltexto h1{
+    padding: 5px;
+    font-size: 39px;
+    color: white;
+    width: 55%;
+    float: right;
+    line-height: 38px;
+    margin: 120px 0;
+}
+    .arboltexto img {
+    float: left;
+    width: 40%
+}
+    
+.contenedor { 
+    width: 95%;
+    margin: auto;
+}
+
+/*-- cuarta sección--*/
+.obra{
+    float: left;
+    padding: 20px;
+    background-color:white;
+}
+
+.obraimg{
+    width: 100%;
+    height: 100%;
+    }    
+.obraimg img{
+    padding: 20px;
+    width: 400px;
+    float: left;
+    height: auto;
+    float: left;
+    margin: 154px 0 0 181px; 
+}
+.obratexto{
+    width: auto;
+    float: left;
+}
+.obratexto h3 {
+    font-family: roboto slab;
+    padding: 10px;
+    font-size: 58px;
+    color: #E1C174;
+    width: auto;
+    line-height: 58px;
+    margin: 60px 0 0 210px   
+   
+}
+
+.obratexto p{
+    font-family: roboto slab;
+    padding: 10px;
+    font-size: 18px;
+    color: #E8DBA6;
+    width: 100%;
+    line-height: 26px;
+    margin: 490px 0 0 0px
+
+}
+/*----- muebles------*/
+   .mueble{
+    display: flex;
+    padding: 10px;
+}
+
+.mueblefondo{
+    background-image: url(../images/mueblebannertablet.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 558px;
+}
+
+.mueblefondo h1{
+    color: white;
+    font-size: 39px;
+    margin: 231px 0 0 218px;
+    line-height: 39px;
+    float: left;
+    width: 70%;
+    
+}
+
+.mueble1texto{
+    width: 50%;
+    float: right;
+}
+.mueble1texto h3 {
+    float:right;
+    font-family: roboto slab;
+    padding: 10px;
+  font-size: 58px;
+    color: #E1C174;
+    width: 90%;
+    line-height: 58px;
+      margin: 60px 0 0 600px   
+   
+}
+.mueble1texto p{
+    float: right;
+    font-family: slabo27px;
+    padding: 10px;
+    font-size: 23px;
+    color: #E8DBA6;
+    width:95%;
+    line-height: 26px;
+  margin: 5px 0 0 570px
+}
+.mueble1img img{
+    
+    float: right;
+    width: 44%;
+    height: 343px;
+    margin: 0 auto;
+} 
+
+.piezasmuebles{
+    padding: 30px 0;
+    float: left;
+   
+}
+.piezatexto2{
+    float: left;
+     height: 531px;
+    width: 1280px;
+    background-color: beige;
+    padding: 10px;
+}
+
+.galeriamuebles{
+    float: left;
+}
+.imagenesmuebles{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+.fotos1{
+    width: 33%;
+    
+}
+.fotos1 img{
+    width: 99%
+    
+}
+.contenedor{
+    width: 98%;
+    margin: auto;
+    position: relative;
+}
+.textofinal1{
+    float: left;
+}
+.textofinal1 p{
+    display: inherit;
+    padding: 26px;
+    font-family: slabo27px;
+    font-size: 29px;
+    line-height: 29px;
+    width: 100%;
+    margin: 0 0 0 0;
+}
+
+/*---- ILUMINACIÓN-----*/
+  .iluminacionfondo{
+    background-image: url(../images/iluminacionbanner.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 558px;
+}
+.iluminacionfondo h1{
+    color: white;
+    font-size: 39px;
+    margin: 418px 0 0 390px;
+    line-height: 41px;
+    float: left;
+    width: 60%;
+   
+}
+
+/*segunda sección*/
+.iluminacion{
+    float: left;
+    padding: 10px;
+   
+}
+
+.iluminacion1texto{
+    width: 30%;
+    float: left;
+}
+.iluminacion1texto h3 {
+    float: left;
+    font-family: roboto slab;
+    padding: 10px;
+    font-size: 58px;
+    color: #E8DBA6;
+    width: 20%;
+    line-height: 58px;
+    margin: 70px 0 0 80px    
+   
+}
+.iluminacion1texto p{
+    font-family: slabo27px;
+    padding: 10px;
+    font-size: 23px;
+    color: #E8DBA6;
+    width: 140%;
+    line-height: 23px;
+    margin: 165px 0 0 45px
+}
+.iluminacion1img  {
+    float: left;
+    width: 50%;
+    margin: 0 0 0 200px
+    
+}
+.piezatexto3{
+    background-color: bisque;
+    height: 600px;
+    width: 100%;
+    float: left;
+}
+.galeriailuminacion{
+    padding: 10px
+}
+.contenedor2{
+    display: flex;    
+}
+.foto2 {
+    width: 33%;
+   
+}
